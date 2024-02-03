@@ -25,7 +25,7 @@ function Header() {
           </div>
           <div style={{ width: "100%" }}>
             <Navbar expand="md" className="custom-navbar">
-              <Container>
+              <Container fluid>
                 <Col
                   xs={12}
                   className="d-md-flex d-none"
