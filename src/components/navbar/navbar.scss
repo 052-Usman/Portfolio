@@ -1,0 +1,69 @@
+* {
+  font-family: Inter;
+  color: #ffffff;
+}
+
+.logo-circle {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+
+  border: 2px solid #262626;
+}
+
+.logo-circle img {
+  width: 40px;
+  height: 40px;
+}
+
+.custom-navbar {
+  // height: 64px;
+  background: linear-gradient(0deg, #1b1b1b, #1b1b1b),
+    linear-gradient(0deg, #262626, #262626);
+  border-radius: 48px;
+  border: 2px solid #262626;
+}
+
+@media screen and (min-width: 768px) {
+  .custom-navbar {
+    height: 64px;
+  }
+}
+
+.nav-link {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #ffffff;
+  padding: 0px 16px;
+  &:hover {
+    color: #f35034;
+  }
+}
+
+.active {
+  color: #f35034;
+}
+
+.custom-offcanvas {
+  background-color: #161616;
+}
+
+.desc {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.navbar-toggler {
+  border-color: white;
+}
+
+.navbar-toggler img {
+  width: 30px;
+  height: 30px;
+}

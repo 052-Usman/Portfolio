@@ -1,0 +1,59 @@
+* {
+  font-family: Inter;
+}
+
+.div1-back {
+  border: 2px solid #262626;
+  background: linear-gradient(0deg, #1b1b1b, #1b1b1b),
+    linear-gradient(0deg, #262626, #262626);
+
+  padding: 60px, 42px, 60px, 42px;
+  border-radius: 14px;
+}
+
+.head {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0em;
+  color: #ffffff;
+}
+
+.desc {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: #c0c0c0;
+}
+
+.profile-background {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: linear-gradient(0deg, #2c2c2c, #2c2c2c),
+    linear-gradient(0deg, #3f3e3e, #3f3e3e);
+}
+
+.profile-background img {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-background-inner {
+  width: 185px;
+  height: 185px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.btn {
+  background-color: #e63e21;
+  border-color: #e63e21;
+  &:hover {
+    background-color: #1b1b1b;
+    border-color: #e63e21;
+  }
+}
