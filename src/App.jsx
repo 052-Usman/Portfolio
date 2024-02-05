@@ -5,15 +5,16 @@ import React, { useState, useEffect } from "react";
 import Header from "./components/navbar/navbar";
 import Home from "./pages/home/home";
 import Footer from "./components/footer/footer";
+import { Toaster } from "react-hot-toast";
 
 function App() {
   // State to manage whether the container should be fluid
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 992);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
   useEffect(() => {
     // Function to update the state based on viewport width
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 992);
+      setIsMobile(window.innerWidth < 768);
     };
 
     // Add event listener
@@ -31,6 +32,7 @@ function App() {
             <Header></Header>
             <Home></Home>
             <Footer></Footer>
+            <Toaster position="bottom-right" reverseOrder={false} />
           </Col>
         </Row>
       </Container>

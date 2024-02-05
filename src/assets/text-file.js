@@ -9,5 +9,6 @@ export const Text_Data = {
     name: "Usman Arshad Virk",
     description:
       "I am dedicated to developing sophisticated and efficient solutions, leveraging a robust skill set in Full Stack Development to address and fulfill modern business needs.",
+    email: "usmanvirk052@gmail.com",
   },
 };

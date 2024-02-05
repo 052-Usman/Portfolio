@@ -1,10 +1,23 @@
 import { Row, Col, Button } from "react-bootstrap";
 import Available_Job from "../../components/available-job/available-job";
 import { Text_Data } from "../../assets/text-file";
+import toast from "react-hot-toast";
 
 import "./home.scss";
 
 function Home() {
+  const copyEmailToClipboard = () => {
+    const email = Text_Data.personal_info.email;
+    navigator.clipboard.writeText(email).then(
+      () => {
+        toast.success("Email copied to clipboard!");
+      },
+      (err) => {
+        console.error("Could not copy text: ", err);
+      }
+    );
+  };
+
   return (
     <>
       <div
@@ -63,13 +76,21 @@ function Home() {
             <Col xs={12}>
               <p className="desc">{Text_Data.personal_info.description}</p>
             </Col>
-            <Col sx={12} className="pt-3">
-              <span>
-                <Button variant="secondary">
-                  <span>Hire me</span>
-                  <span>+</span>
-                </Button>
-              </span>
+            <Col sx={12} className="pt-3 d-flex">
+              <div className="btn-hire-me">
+                <div className="text">Hire me</div>
+                <div className="line"></div>
+                <div className="sign">
+                  <img src="./plus-icon.svg" alt="" />
+                </div>
+              </div>
+              <div className="btn-copy-email">
+                <div className="text">Copy Email</div>
+                <div className="line"></div>
+                <div className="sign" onClick={copyEmailToClipboard}>
+                  <img src="./copy-icon.svg" alt="" />
+                </div>
+              </div>
             </Col>
           </Col>
           <Col

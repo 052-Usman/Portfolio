@@ -1,4 +1,17 @@
 body {
   background-color: #161616;
   color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+  background: none;
+  height: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8d979b;
+  border-radius: 5px;
+  cursor: pointer;
 }
