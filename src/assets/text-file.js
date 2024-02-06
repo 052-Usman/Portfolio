@@ -10,5 +10,6 @@ export const Text_Data = {
     description:
       "I am dedicated to developing sophisticated and efficient solutions, leveraging a robust skill set in Full Stack Development to address and fulfill modern business needs.",
     email: "usmanvirk052@gmail.com",
+    calendly: "https://calendly.com/usmanvirk052/hire-me",
   },
 };
