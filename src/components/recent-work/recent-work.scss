@@ -1,0 +1,96 @@
+.main-div-back {
+  border: 2px solid #262626;
+  background: linear-gradient(0deg, #1b1b1b, #1b1b1b),
+    linear-gradient(0deg, #262626, #262626);
+
+  padding: 22px 22px;
+  border-radius: 14px;
+
+  @media screen and (min-width: 768px) {
+    padding: 40px 32px;
+  }
+
+  @media screen and (min-width: 1400px) {
+    padding: 60px 42px;
+  }
+}
+
+.head {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0em;
+  color: #ffffff;
+}
+
+.desc {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: #c0c0c0;
+}
+
+.recent-work {
+  display: flex;
+  align-items: center;
+
+  .circle {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #f35034;
+  }
+
+  .top-text {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+  }
+}
+
+.project-container {
+  margin-top: 32px;
+
+  .project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 12px 0;
+  }
+
+  .work-details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .name {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .time {
+    margin-top: 4px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #c0c0c0;
+  }
+
+  .type {
+    text-align: right;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #c0c0c0;
+  }
+}

@@ -1,9 +1,10 @@
 import { Row, Col, Button } from "react-bootstrap";
-import Available_Job from "../../components/available-job/available-job";
-import { Text_Data } from "../../assets/text-file";
 import toast from "react-hot-toast";
 
 import "./home.scss";
+import { Text_Data } from "../../assets/text-file";
+import Available_Job from "../../components/available-job/available-job";
+import RecentWork from "../../components/recent-work/recent-work";
 
 function Home() {
   const copyEmailToClipboard = () => {
@@ -18,11 +19,16 @@ function Home() {
     );
   };
 
+  const navigateToCalendly = () => {
+    const calendly_url = Text_Data.personal_info.calendly;
+    window.open(calendly_url, "_blank");
+  };
+
   return (
     <>
       <div
         xs={12}
-        className="div1-back py-md-4 py-3 px-md-4 px-2 d-flex"
+        className="div1-back d-flex"
         style={{ justifyContent: "center", flexWrap: "wrap" }}
       >
         <Col
@@ -77,7 +83,7 @@ function Home() {
               <p className="desc">{Text_Data.personal_info.description}</p>
             </Col>
             <Col sx={12} className="pt-3 d-flex">
-              <div className="btn-hire-me">
+              <div className="btn-hire-me" onClick={navigateToCalendly}>
                 <div className="text">Hire me</div>
                 <div className="line"></div>
                 <div className="sign">
@@ -110,6 +116,22 @@ function Home() {
               </span>
             </span>
           </Col>
+        </Col>
+      </div>
+      <div xs={12} className="mt-3">
+        <Col
+          xs={12}
+          className="d-flex"
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            flexWrap: "wrap",
+          }}
+        >
+          <div className="div2-back">
+            <RecentWork></RecentWork>
+          </div>
+          <div className="div2-back"></div>
         </Col>
       </div>
     </>

@@ -9,9 +9,17 @@
       rgba(51, 19, 14, 0) 25.53%
     ),
     #1b1b1b;
+
+  padding: 22px 22px;
   border-radius: 14px;
 
-  padding: 20px;
+  @media screen and (min-width: 768px) {
+    padding: 36px 32px;
+  }
+
+  @media screen and (min-width: 1400px) {
+    padding: 45px 42px;
+  }
 }
 
 .desc {

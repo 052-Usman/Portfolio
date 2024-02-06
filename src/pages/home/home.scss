@@ -3,8 +3,16 @@
   background: linear-gradient(0deg, #1b1b1b, #1b1b1b),
     linear-gradient(0deg, #262626, #262626);
 
-  padding: 60px, 42px, 60px, 42px;
+  padding: 22px 22px;
   border-radius: 14px;
+
+  @media screen and (min-width: 768px) {
+    padding: 40px 32px;
+  }
+
+  @media screen and (min-width: 1400px) {
+    padding: 60px 42px;
+  }
 }
 
 .head {
@@ -113,5 +121,12 @@
     &:hover {
       opacity: 0.6;
     }
+  }
+}
+
+.div2-back {
+  width: 100%;
+  @media screen and (min-width: 768px) {
+    width: calc(50% - 10px);
   }
 }
