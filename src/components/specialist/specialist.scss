@@ -39,20 +39,42 @@
     linear-gradient(0deg, #262626, #262626);
 }
 
-.specialist-1 {
-  background: linear-gradient(
-      249.05deg,
-      rgba(230, 62, 33, 0.2) 18.59%,
-      rgba(51, 19, 14, 0) 53.25%
-    ),
-    #1b1b1b;
+.spec-width {
+  margin-top: 1rem !important;
+  width: calc(50% - 10px);
 
-  border: 2px solid #262626;
+  .specialist-2 {
+    background: linear-gradient(
+        246deg,
+        rgba(230, 62, 33, 0.2) 10.4%,
+        rgba(51, 19, 14, 0) 25.53%
+      ),
+      #1b1b1b;
+    // transform: rotate(-180deg);
 
-  border-image-source: linear-gradient(
-      257.54deg,
-      #e63e21 5.39%,
-      rgba(230, 62, 33, 0) 13.59%
-    ),
-    linear-gradient(0deg, #262626, #262626);
+    border: 2px solid #262626;
+    border-image-source: linear-gradient(
+        70.92deg,
+        #e63e21 5.61%,
+        rgba(230, 62, 33, 0) 16.22%
+      ),
+      linear-gradient(0deg, #262626, #262626);
+  }
+
+  .specialist-3 {
+    background: linear-gradient(
+        65.27deg,
+        rgba(230, 62, 33, 0.2) 10.4%,
+        rgba(51, 19, 14, 0) 25.53%
+      ),
+      #1b1b1b;
+
+    border: 2px solid #262626;
+    border-image-source: linear-gradient(
+        70.92deg,
+        #e63e21 5.61%,
+        rgba(230, 62, 33, 0) 16.22%
+      ),
+      linear-gradient(0deg, #262626, #262626);
+  }
 }

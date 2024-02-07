@@ -15,6 +15,22 @@ function Specialist() {
         <Col className="div-back-specialist specialist-1">
           Full Stack Developer
         </Col>
+        <Col
+          xs={12}
+          className="d-flex"
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            flexWrap: "wrap",
+          }}
+        >
+          <div className="spec-width">
+            <Col className="div-back-specialist specialist-2">MEAN/MERN</Col>
+          </div>
+          <div className="spec-width">
+            <Col className="div-back-specialist specialist-3">Android</Col>
+          </div>
+        </Col>
       </div>
     </>
   );
