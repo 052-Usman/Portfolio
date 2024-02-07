@@ -5,6 +5,7 @@ import "./home.scss";
 import { Text_Data } from "../../assets/text-file";
 import Available_Job from "../../components/available-job/available-job";
 import RecentWork from "../../components/recent-work/recent-work";
+import Specialist from "../../components/specialist/specialist";
 
 function Home() {
   const copyEmailToClipboard = () => {
@@ -118,7 +119,7 @@ function Home() {
           </Col>
         </Col>
       </div>
-      <div xs={12} className="mt-3">
+      <div xs={12}>
         <Col
           xs={12}
           className="d-flex"
@@ -131,7 +132,9 @@ function Home() {
           <div className="div2-back">
             <RecentWork></RecentWork>
           </div>
-          <div className="div2-back"></div>
+          <div className="div2-back">
+            <Specialist></Specialist>
+          </div>
         </Col>
       </div>
     </>
