@@ -10,7 +10,10 @@ function Footer() {
       <div
         xs={12}
         className="footer my-3 d-flex"
-        style={{ justifyContent: "center" }}
+        style={{ justifyContent: "center"
+,          zIndex: 99 , position:'relative'
+      
+      }}
       >
         <Col
           xs={12}

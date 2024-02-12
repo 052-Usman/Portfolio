@@ -30,7 +30,13 @@ function Home() {
       <div
         xs={12}
         className="div1-back d-flex"
-        style={{ justifyContent: "center", flexWrap: "wrap" }}
+        style={{
+          justifyContent: "center",
+          flexWrap: "wrap",
+
+          zIndex: 99,
+          position: "relative",
+        }}
       >
         <Col
           xs={12}
@@ -129,7 +135,7 @@ function Home() {
             flexWrap: "wrap",
           }}
         >
-          <div className="div2-back">
+          <div style={{ zIndex: 99 }} className="div2-back">
             <RecentWork></RecentWork>
           </div>
           <div className="div2-back">

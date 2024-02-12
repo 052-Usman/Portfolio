@@ -12,7 +12,10 @@ function Specialist() {
         className="d-flex"
         style={{ justifyContent: "center", flexWrap: "wrap" }}
       >
-        <Col className="div-back-specialist specialist-1">
+        <Col
+          style={{ zIndex: 99 }}
+          className="div-back-specialist specialist-1"
+        >
           Full Stack Developer
         </Col>
         <Col
@@ -24,10 +27,20 @@ function Specialist() {
             flexWrap: "wrap",
           }}
         >
-          <div className="spec-width">
+          <div
+            style={{
+              zIndex: 99,
+            }}
+            className="spec-width"
+          >
             <Col className="div-back-specialist specialist-2">MEAN/MERN</Col>
           </div>
-          <div className="spec-width">
+          <div
+            style={{
+              zIndex: 99,
+            }}
+            className="spec-width"
+          >
             <Col className="div-back-specialist specialist-3">Android</Col>
           </div>
         </Col>
