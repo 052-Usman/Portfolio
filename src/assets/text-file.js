@@ -39,4 +39,14 @@ export const Text_Data = {
       type: "Android",
     },
   ],
+  tech_stack: [
+    {
+      name: "Full Stack Developer",
+      sub: ["Node", "Angular", "React", "Postgresql"],
+    },
+    {
+      name: "Android Developer",
+      sub: ["Java", "Firebase"],
+    },
+  ],
 };
