@@ -5,6 +5,7 @@ import "./specialist.scss";
 
 function Specialist() {
   const specialist = Text_Data.recent_work;
+  const tech_stack = Text_Data.tech_stack;
   return (
     <>
       <div
@@ -12,38 +13,34 @@ function Specialist() {
         className="d-flex"
         style={{ justifyContent: "center", flexWrap: "wrap" }}
       >
-        <Col
-          style={{ zIndex: 99 }}
-          className="div-back-specialist specialist-1"
-        >
-          Full Stack Developer
-        </Col>
-        <Col
-          xs={12}
-          className="d-flex"
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            flexWrap: "wrap",
-          }}
-        >
-          <div
-            style={{
-              zIndex: 99,
-            }}
-            className="spec-width"
-          >
-            <Col className="div-back-specialist specialist-2">MEAN/MERN</Col>
+        {tech_stack.map((stack, index) => (
+          <div key={index} style={{ width: "100%" }}>
+            <Col
+              style={{ zIndex: 99, position: "relative", marginTop: "1rem" }}
+              className="div-back-specialist specialist-1"
+            >
+              {stack.name}
+            </Col>
+            <Row>
+              {stack.sub.map((subItem, subIndex) => (
+                <Col key={subIndex} xs={6}>
+                  <div className="spec-width d-flex">
+                    <div
+                      className={`div-back-specialist specialist-${
+                        subIndex % 2 === 0 ? "2" : "3"
+                      }`}
+                      style={{
+                        zIndex: 99,
+                      }}
+                    >
+                      {subItem}
+                    </div>
+                  </div>
+                </Col>
+              ))}
+            </Row>
           </div>
-          <div
-            style={{
-              zIndex: 99,
-            }}
-            className="spec-width"
-          >
-            <Col className="div-back-specialist specialist-3">Android</Col>
-          </div>
-        </Col>
+        ))}
       </div>
     </>
   );

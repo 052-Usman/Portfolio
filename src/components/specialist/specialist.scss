@@ -41,9 +41,10 @@
 
 .spec-width {
   margin-top: 1rem !important;
-  width: calc(50% - 10px);
+  // width: calc(100% - 10px);
 
   .specialist-2 {
+    width: 100%;
     background: linear-gradient(
         246deg,
         rgba(230, 62, 33, 0.2) 10.4%,
@@ -62,6 +63,7 @@
   }
 
   .specialist-3 {
+    width: 100%;
     background: linear-gradient(
         65.27deg,
         rgba(230, 62, 33, 0.2) 10.4%,
