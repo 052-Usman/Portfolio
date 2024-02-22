@@ -98,7 +98,10 @@ function Home() {
                 </div>
               </div>
               <div className="btn-copy-email">
-                <div className="text">Copy Email</div>
+                <div className="text d-md-none d-block">Copy Email</div>
+                <div className="text d-md-block d-none">
+                  {Text_Data.personal_info.email}
+                </div>
                 <div className="line"></div>
                 <div className="sign" onClick={copyEmailToClipboard}>
                   <img src="./copy-icon.svg" alt="" />
