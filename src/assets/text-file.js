@@ -12,6 +12,9 @@ export const Text_Data = {
     email: "usmanvirk052@gmail.com",
     calendly: "https://calendly.com/usmanvirk052/hire-me",
   },
+  footer: {
+    logo: "Usman Arshad",
+  },
   recent_work: [
     {
       name: "Dialect-AI",

@@ -31,3 +31,17 @@
 
   color: #fdfdfd;
 }
+
+.social {
+  text-decoration: none;
+  color: inherit;
+
+  svg path {
+    fill: #fdfdfd;
+    transition: fill 0.3s ease;
+    &:hover {
+      fill: #f35034;
+      cursor: pointer;
+    }
+  }
+}
