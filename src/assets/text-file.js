@@ -3,6 +3,7 @@ export const Text_Data = {
     twitter_url: "https://twitter.com/usmanvirk052",
     instagram_url: "https://www.instagram.com/u_a_rk/?hl=en",
     linkedin_url: "https://www.linkedin.com/in/usman-arshad-virk/",
+    facebook_url: "https://www.facebook.com/chuman.virk",
   },
   personal_info: {
     field: "Software Engineer",

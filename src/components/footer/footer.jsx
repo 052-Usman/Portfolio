@@ -105,7 +105,7 @@ function Footer() {
             </a>
             <a
               className="mx-2 social"
-              href={Text_Data.social.linkedin_url}
+              href={Text_Data.social.facebook_url}
               target="_blank"
               rel="noopener noreferrer"
             >
