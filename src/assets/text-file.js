@@ -11,12 +11,22 @@ export const Text_Data = {
     description:
       "I am dedicated to developing sophisticated and efficient solutions, leveraging a robust skill set in Full Stack Development to address and fulfill modern business needs.",
     email: "usmanvirk052@gmail.com",
-    calendly: "https://calendly.com/usmanvirk052/hire-me",
+    calendly: "https://www.linkedin.com/in/usman-arshad-virk/",
   },
   footer: {
     logo: "Usman Arshad",
   },
   recent_work: [
+    {
+      name: "VRTour Portal User",
+      time: "Feb 24 - Present",
+      type: "MEAN",
+    },
+    {
+      name: "VRTour",
+      time: "Jan 24 - Present",
+      type: "MEAN",
+    },
     {
       name: "Dialect-AI",
       time: "April 23 - Present",

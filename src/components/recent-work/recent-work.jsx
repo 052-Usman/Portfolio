@@ -10,7 +10,12 @@ function RecentWork() {
       <div
         xs={12}
         className="main-div-back d-flex"
-        style={{ justifyContent: "center", flexWrap: "wrap" }}
+        style={{
+          justifyContent: "center",
+          flexWrap: "wrap",
+          zIndex: 99,
+          position: "relative",
+        }}
       >
         <Col xs={12} className="recent-work">
           <div className="circle"></div>

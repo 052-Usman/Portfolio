@@ -22,9 +22,7 @@ function Footer() {
             md={3}
             className="d-flex justify-content-center justify-content-md-start"
           >
-            <p style={{ fontSize: "24px", marginBottom: "0px" }}>
-              {Text_Data.footer.logo}
-            </p>
+            <img height={"40px"} src="./usman-logo.svg" alt="logo" />
           </Col>
           <Col
             xs={12}

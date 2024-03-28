@@ -35,7 +35,7 @@ function Header() {
                   }}
                 >
                   <Col xs={12} md={4} className="d-flex">
-                    <Nav.Link href="#home">Home</Nav.Link>
+                    <Nav.Link href="">Home</Nav.Link>
                   </Col>
                   <Col
                     xs={12}
@@ -82,7 +82,7 @@ function Header() {
                   </Offcanvas.Header>
                   <Offcanvas.Body>
                     <Nav className="d-flex d-md-none">
-                      <Nav.Link href="#home">Home</Nav.Link>
+                      <Nav.Link href="">Home</Nav.Link>
                       <Nav.Link href="#contact">Contact</Nav.Link>
                     </Nav>
                   </Offcanvas.Body>

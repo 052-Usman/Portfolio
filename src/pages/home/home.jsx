@@ -138,7 +138,7 @@ function Home() {
             flexWrap: "wrap",
           }}
         >
-          <div style={{ zIndex: 99, marginTop: "1rem" }} className="div2-back">
+          <div style={{ marginTop: "1rem" }} className="div2-back">
             <RecentWork></RecentWork>
           </div>
           <div className="div2-back">

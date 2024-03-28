@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 234.25 74.72">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: "Poppins", sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: .1em;
+      }
+
+      .cls-2 {
+        font-family: "Poppins", sans-serif;
+        font-size: 39.57px;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #f35034;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <path class="cls-3" d="M49.75,39.87v25.15h-19.29c-1.88,0-3.71-.25-5.45-.73-1.74-.47-3.39-1.16-4.92-2.05-3.23-1.87-5.91-4.59-7.72-7.85-1.67-2.98-2.63-6.43-2.63-10.09V9.5h10.34v34.46c0,5.76,4.67,10.43,10.43,10.43h9.01v-14.52h10.22Z"/>
+        <path class="cls-3" d="M25.01,42.83V9.5h19.29c1.88,0,3.71.25,5.45.73,1.74.47,3.39,1.16,4.92,2.05,3.23,1.87,5.91,4.59,7.72,7.85,1.67,2.98,2.63,6.43,2.63,10.09v34.81h-10.34V30.56c0-5.76-4.67-10.43-10.43-10.43h-9.01v27.13h-5.79c-2.45,0-4.43-1.99-4.43-4.43Z"/>
+        <path class="cls-3" d="M49.53,36.9h-9.79c-.12,0-.22-.1-.22-.22v-9.75c0-.12.1-.22.22-.22h5.57c2.45,0,4.43,1.99,4.43,4.43v5.54c0,.12-.1.22-.22.22Z"/>
+        <polygon class="cls-3" points="44.64 0 50.92 6.28 68.5 6.28 68.5 23.87 74.79 30.15 74.79 0 44.64 0"/>
+        <polygon class="cls-3" points="30.15 74.72 23.87 68.44 6.28 68.44 6.28 50.85 0 44.57 0 74.72 30.15 74.72"/>
+      </g>
+      <text class="cls-4" transform="translate(88.84 37.13)"><tspan class="cls-2"><tspan x="0" y="0">Usman</tspan></tspan><tspan class="cls-1"><tspan x="0" y="22">Arshad</tspan></tspan></text>
+    </g>
+  </g>
+</svg>
