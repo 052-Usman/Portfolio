@@ -17,7 +17,12 @@ function Header() {
         >
           <div
             className="logo-circle p-2 d-none d-md-flex"
-            style={{ justifyContent: "center", alignItems: "center" }}
+            style={{
+              justifyContent: "center",
+              alignItems: "center",
+              zIndex: 99,
+              position: "relative",
+            }}
           >
             <Navbar.Brand href="#home">
               <img src="./logo.svg" alt="logo" />
